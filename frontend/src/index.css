@@ -1,0 +1,56 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-image {
+  width: 100% !important;
+}
+
+.VideoPlayerbtn {
+  margin-left: 3px;
+}
+
+/* 
+.VideoPlayeroverlay {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: yellow;
+  top: 10px;
+  width: 98%;
+  height: auto;
+  overflow-y: auto;
+  padding: 4px 4px;
+  z-index: 999 !important;
+} */
+
+.VideoPlayerDiv:hover>.controls {
+  visibility: visible;
+  opacity: 1;
+}
